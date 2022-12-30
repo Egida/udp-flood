@@ -1,11 +1,7 @@
-/*
-=============================================================================
 // compilation : gcc udp-flood.c -o udp-flood
 // rm -rf ./udp-flood; gcc udp-flood.c -o udp-flood; chmod 777 *;
-// DEVELOPPER BY MEDUSA STEALER TEAM
-=============================================================================
-*/
 
+// si il ne ce compile pas faire ceci : sudo apt-get update; sudo apt-get install build-essential
 #include <time.h>
 #include <pthread.h>
 #include <unistd.h>
